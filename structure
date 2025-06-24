@@ -1,0 +1,26 @@
+<!-- 📁 File Structure Overview:
+
+📁 garba-class-website
+├── index.html              --> Home Page
+├── about.html              --> About Garba Class
+├── register.html           --> Participant Registration
+├── schedule.html           --> Batch Schedule
+├── gallery.html            --> Event Gallery
+├── contact.html            --> Contact Information
+├── admin/
+│   ├── login.html          --> Admin Login
+│   ├── dashboard.php       --> Admin Dashboard
+│   ├── participants.php    --> View/Edit Participants
+│   └── add_batch.php       --> Manage Batches
+├── css/
+│   └── style.css           --> Main Stylesheet
+├── js/
+│   └── script.js           --> JavaScript (optional)
+├── php/
+│   ├── register.php        --> Save Registration Form to DB
+│   └── login.php           --> Admin Login Logic
+├── db/
+│   └── config.php          --> DB Connection File
+└── assets/
+    ├── img/                --> Gallery Images
+    └── logo.png            --> Logo

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Aarambh Garba Class</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('assets/img/garba-bg.jpg') no-repeat center center/cover;
+      backdrop-filter: blur(3px);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: rgba(255, 77, 109, 0.9);
+      padding: 1rem 2rem;
+      color: white;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    nav {
+      background: rgba(255, 227, 227, 0.95);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: rgba(255, 77, 109, 0.95);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      header img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0.5rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loader"><div></div></div>
+ 
+  <a href="https://wa.me/919876543210" id="whatsapp-btn" target="_blank">💬</a>
+  <a href="https://instagram.com/yourpage" id="insta-link" target="_blank">📸</a>
+  <span id="mobile-nav-toggle">☰</span>
+
+  <header>
+    <img src="assets/logo.jpg" alt="Garba Logo" />
+    <h1>Aarambh Garba Class</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <section>
+    <h2>📞 Contact Us</h2>
+    <p>
+      📱 Phone: <a href="tel:+919876543210">+91 98765 43210</a><br>
+      ✉️ Email: <a href="mailto:contact@aarambhgarba.in">contact@aarambhgarba.in</a><br>
+      📍 Location: Garba Hall, Jamnagar, Gujarat
+    </p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.879535299701!2d70.06621121454677!3d22.47085758525271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3957164d087a4ecf%3A0x8f771d2c285b9799!2sJamnagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1719212345678" 
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aarambh Garba Class. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
